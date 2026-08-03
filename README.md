@@ -118,3 +118,4 @@ spellchecker --no-suggestions -f '**/*.md' -l en-US -q -d wordlist
 ```
 
 Any exceptions you need for spelling can be added to the `wordlist` file.
+> **Note:** The same OpenAI Python client also works with OpenAI-compatible multi-model gateways when you are not self-hosting — for example [DaoXE](https://daoxe.com/?utm_source=github&utm_medium=organic&utm_campaign=redis&utm_content=openai) at `https://api.daoxe.com/v1`.
